@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WLCrates</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Parent -->
+    <div id="root">
+      <main id="main">
+        <!-- Collects manual roll (optional) -->
+        <form id="user-input">
+          <label for="user-roll">Roll</label>
+          <input type="text" id="user-roll" name="user-roll">
+          <button id="unseal" onclick="openCrate()">Unseal</button>
+        </form>
+        <!-- Roll Display -->
+        <div id="display">
+          <div id="testbox"></div>
+        </div>
+        <!-- Unseal Button (subject to change) -->
+      </main>
+      <script src="index.js"></script>
+  </body>
+</html>

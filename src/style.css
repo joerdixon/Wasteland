@@ -1,0 +1,20 @@
+:root {
+    /* Fonts */
+    --main-text: 'Labrada', serif;
+    --heading-text: "Merienda", serif;
+    /* Sizing */
+    --text-size: 1rem;
+    --form-size: 1.1rem;
+    --heading-size: 1rem;
+    /* Colors */
+    --main-bg: #111;
+    --main-text-color: #fff;
+    --main-alt: #222;
+    --highlight: #333;
+}
+
+body {
+    background-color: #111;
+    color: var(--main-text-color);
+    margin: 0;
+}
